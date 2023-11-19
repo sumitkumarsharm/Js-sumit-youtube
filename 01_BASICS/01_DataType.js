@@ -70,3 +70,26 @@ console.log(typeof MyFunction);
 
 //Study to this 
 //https://tc39.es/ecma262/2023/#sec-typeof-operator
+
+//+++++++++++++++++++++++++ Memory +++++++++++++++++++
+// Stack : whenever you should chnage somthing into the primitive datatype and want to access than is give to you only copy of the element ex- number boolean string etc, 
+
+let myYoutube = "sumitSharma"
+let anotheName = myYoutube
+anotheName = "Enemey"
+console.log(anotheName);
+console.log(myYoutube);
+
+
+// Heap : whenever you should chnage somthing into the primitive datatype and want to access it is not give to you copy of the element it is give to you orignal element ex- object, function, array 
+
+let user = {
+    email:'google.com',
+    id:1233123,
+    upi_id: 92,
+
+}
+let usertwo = user;
+usertwo.email = 'sumit@gmail.com'
+console.log(usertwo);
+console.log(user);
