@@ -5,32 +5,32 @@
 //Ex - 
 //1 way to declearing the array
 
-// let element = [20,10,3,44,63,553,'sumit',true,false,2.2];
-// console.log(element);
+let element = [20,10,3,44,63,553,'sumit',true,false,2.2];
+console.log(element);
 
 // Array is resizable in javaScripts
-// console.log(Array[8]);
+console.log(Array[8]);
 
 // 2 way to declearing the array
-// const MyArray = new Array(2,3,4,5,6,'sumit',0.9);
-// console.log(MyArray);
+const MyArray = new Array(2,3,4,5,6,'sumit',0.9);
+console.log(MyArray);
 
 // ++++++++++++++ Array Method +++++++++++++
 
 
-// element.push(7);// for adding the element 
-// console.log(element);
-// element.pop()// for removing the element
-// console.log(element);
-// element.unshift(7);// adding anything first in the array than we use unshift
-// console.log(element);
-// element.shift()// removeing the element first index
-// console.log(element);
-// console.log(element.includes(20));// include is use to check element is prsent or not
-// console.log(element.indexOf(0.9));// to check the element is in array are which index
+element.push(7);// for adding the element 
+console.log(element);
+element.pop()// for removing the element
+console.log(element);
+element.unshift(7);// adding anything first in the array than we use unshift
+console.log(element);
+element.shift()// removeing the element first index
+console.log(element);
+console.log(element.includes(20));// include is use to check element is prsent or not
+console.log(element.indexOf(0.9));// to check the element is in array are which index
 
-// const myStr = element.join("-")// it is join the element on the basis of -, _, space, etc and it is convert the array into string.
-// console.log(myStr);
+const myStr = element.join("-")// it is join the element on the basis of -, _, space, etc and it is convert the array into string.
+console.log(myStr);
 
 
 
