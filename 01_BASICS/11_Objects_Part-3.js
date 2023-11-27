@@ -15,4 +15,4 @@ const {CourseInstrctor:instractor} = Course;
 console.log(instractor);
 
 
-//API'S
+// all about 
