@@ -24,7 +24,7 @@ true => 1, false => 0
 // to converting the number to boolean we should use : boolean()
 let isLoggedIn = 1
 let booleanIsLoggedIn = Boolean(isLoggedIn);
-console.log("this is boolean "+ booleanIsLoggedIn+","+typeof booleanIsLoggedIn);
+console.log("this is boolean "+ booleanIsLoggedIn+"," +  typeof booleanIsLoggedIn);
 
 let str = "sumit"
 let str2 = Boolean(str)
