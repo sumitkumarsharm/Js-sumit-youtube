@@ -31,10 +31,9 @@ const debitCard = true
 const loggedInGoogle = false
 const loggedInGmail = true
 
-if (userLoggedIn && debitCard) {
+if (userLoggedIn && debitCard && 2 == 3) {
     console.log("allow to buy course");    
 }
-
 if (loggedInGoogle || loggedInGmail) {// here you can check multipale condition
     console.log("You have to buy the couse");
 }
