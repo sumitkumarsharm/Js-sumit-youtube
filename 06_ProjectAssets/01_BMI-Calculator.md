@@ -1,4 +1,6 @@
-# This is project file Here I uploade all Source Code. CSS,JS,HTML
+# It is a BMI calculator project 
+# Here I uploade all Source Code like:- 
+# CSS,JS,HTML
 
 ## Code Link:-
 [click Here](https://github.com/sumitkumarsharm/Js-sumit-youtube)
